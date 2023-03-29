@@ -32,19 +32,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <div className={styles.titleBox}>
-            <h1 className={styles.title}>ChatGPT Proxy</h1>
-            <h1
-              className={styles.titleMask}
-              style={copied ? { height: 0 } : {}}
-            >
-              ChatGPT Proxy
-            </h1>
-          </div>
-        </div>
-      </main>
       <ToastContainer />
     </>
   );
